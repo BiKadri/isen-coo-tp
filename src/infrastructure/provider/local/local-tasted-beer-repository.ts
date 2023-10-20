@@ -7,7 +7,7 @@ export class LocalTastedBeerRepository implements TastedBeerRepository {
   private filePath: string;
 
   constructor() {
-    this.filePath = join(__dirname, "../../../data/prefered-beer.json");
+    this.filePath = join(__dirname, "../../../../data/prefered-beer.json");
   }
 
   async getAllTastedBeers(): Promise<TastedBeer[]> {

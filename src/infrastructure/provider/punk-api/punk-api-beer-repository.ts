@@ -24,4 +24,18 @@ export class PunkAPIBeerRepository implements BeerRepository {
       return [];
     }
   }
+
+  async getBeerById(id: number): Promise<Beer | null> {
+    try {
+      const { data } = await this.http.get(`/beers/${id}`);
+
+      if (!data?.length) {
+        return null;
+      }
+
+      return PunkAPIBeerDeserializer.deserialize(data[0]);
+    } catch (err) {
+      return null;
+    }
+  }
 }

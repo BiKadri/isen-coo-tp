@@ -1,0 +1,24 @@
+{
+  "tastedBeers": [
+    {
+      "alcoholByVolume": 4.5,
+      "bitterness": 60,
+      "color": "EXTRA_SPECIAL_BITTER",
+      "id": 1,
+      "name": "Buzz",
+      "hasLiked": true,
+      "urlImage": "https://images.punkapi.com/v2/keg.png",
+      "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once."
+    },
+    {
+      "alcoholByVolume": 4.1,
+      "bitterness": 41.5,
+      "color": "IPA",
+      "id": 2,
+      "name": "Trashy Blonde",
+      "hasLiked": false,
+      "urlImage": "https://images.punkapi.com/v2/2.png",
+      "description": "A titillating, neurotic, peroxide punk of a Pale Ale. Combining attitude, style, substance, and a little bit of low self esteem for good measure; what would your mother say? The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives, preservatives, pasteurization or strings attached. All wrapped up with the customary BrewDog bite and imaginative twist."
+    }
+  ]
+}
