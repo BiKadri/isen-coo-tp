@@ -10,9 +10,9 @@ export class Beer {
   public name: string;
   public description?: string;
   public urlImage?: string;
-  public alcoholByVolume? = 0;
-  public bitterness? = 0;
-  public color? = BeerColorIntensity.UNKNOW;
+  public alcoholByVolume = 0;
+  public bitterness = 0;
+  public color = BeerColorIntensity.UNKNOW;
 
   constructor({ id, name }: BeerDependencies) {
     this.id = id;
